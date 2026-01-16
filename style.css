@@ -209,7 +209,7 @@ html {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
   animation: fadeInUp 0.8s ease-out 0.5s backwards;
 }
 
@@ -265,6 +265,22 @@ html {
   gap: 0.5rem;
 }
 
+.education-section h4 {
+  color: var(--primary-orange);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.education-section h5 {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-size: 1.0rem;
+  display: flex;
+  align-items: center;
+}
+
 .career-interests p {
   color: var(--text-secondary);
   line-height: 1.8;
@@ -313,11 +329,24 @@ html {
 }
 
 .strength-card {
-  border-left: 4px solid #10b981;
+  border-left: 4px solid  var(--primary-orange);
+}
+
+.strength-card-v2 h4 {
+  color: var(--text-secondary);
+}
+
+.strength-card-v2 h3 {
+  color: var(--text-secondary);
+}
+
+
+.strength-card-v2 {
+  border-left: 4px solid var(--primary-orange);
 }
 
 .weakness-card {
-  border-left: 4px solid var(--primary-orange-light);
+  border-left: 4px solid var(--primary-orange);
 }
 
 .sw-card h4 {
@@ -329,11 +358,11 @@ html {
 }
 
 .strength-card h4 {
-  color: #10b981;
+  color:  var(--primary-orange);
 }
 
 .weakness-card h4 {
-  color: var(--primary-orange-light);
+  color: var(--primary-orange);
 }
 
 .sw-card ul {
@@ -355,7 +384,7 @@ html {
 }
 
 .strength-card li::before {
-  color: #10b981;
+  color: var(--primary-orange-light);
 }
 
 .weakness-card li::before {
@@ -413,7 +442,7 @@ section {
 }
 
 .skill-category h3 {
-  color: var(--text-primary);
+  color: var(--text-secondary);
   margin-bottom: 1rem;
   font-size: 1.2rem;
   display: flex;
@@ -541,7 +570,7 @@ section {
 }
 
 .membership-card h3 {
-  color: var(--text-primary);
+  color: var(--primary-orange);
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
   display: flex;
@@ -709,6 +738,10 @@ section {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.learning-card {
+border-left: 4px solid var(--primary-orange);
+}
+
 .learning-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(217, 119, 6, 0.3);
@@ -861,7 +894,7 @@ section {
 }
 
 .project-card h4 {
-  color: var(--text-primary);
+  color: var(--primary-orange);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -908,6 +941,10 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   border: 1px solid var(--border-color);
   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.research-card {
+  border-left: 4px solid var(--primary-orange);
 }
 
 .research-card:hover {
