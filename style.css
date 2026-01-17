@@ -834,6 +834,12 @@ border-left: 4px solid var(--primary-orange);
   line-height: 1.8;
 }
 
+.internship-card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .seeking-card {
   background: rgba(217, 119, 6, 0.1);
   padding: 2rem;
